@@ -19,7 +19,7 @@ for (let i = 0; i < ownerlist.length; i++) {
     global.owner.push([ownerlist[i], true]);
 }
 //
-global.prefix = '!';
+global.prefix = process.env.PREFIX || '!';
 global.botname = process.env.BOTNAME || 'XNIL-MD';
 global.botNumber = '8801818512416' //replace your bot number here
 
